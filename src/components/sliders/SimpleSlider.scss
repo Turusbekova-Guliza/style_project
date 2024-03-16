@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style-type: none;
+  box-sizing: border-box;
+}
+
+.slider {
+  width: 400px;
+  height: 520px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .block_silder {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+
+    .img_slide {
+      width: 400px !important;
+      height: 500px !important;
+    }
+  }
+}

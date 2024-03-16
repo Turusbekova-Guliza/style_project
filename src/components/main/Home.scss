@@ -1,0 +1,348 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style-type: none;
+  text-decoration: none;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+main {
+  background: rgba(210, 179, 148, 0.5);
+  width: auto;
+  height: auto;
+
+  h2 {
+    margin: 40px 0 50px 0;
+    font-weight: bolder;
+    font-size: 60px;
+  }
+
+  .services,
+  .about,
+  .slider {
+    padding: 20px 0 20px 0;
+  }
+
+  .services,
+  .capacity,
+  .additional-services,
+  .consultation {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 20px;
+  }
+
+  .home {
+    background: #fff;
+    width: 100%;
+    height: 100px;
+
+    .home_block {
+      width: 100%;
+      height: 100px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 50px;
+
+      .h1_name {
+        font-size: 300%;
+        color: #000;
+        text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+        font-weight: bolder;
+      }
+
+      .image-logo {
+        width: 180px;
+        height: 80%;
+      }
+    }
+  }
+
+  .services {
+    ul {
+      display: flex;
+      width: 100%;
+      gap: 70px;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: center;
+
+      li {
+        width: 300px;
+        height: 250px;
+        text-align: center;
+        background-color: #fff;
+        border-radius: 20px;
+        box-shadow: 0 0px 10px #d6a471;
+        padding: 15px;
+        margin-bottom: 15px;
+        transition: all 0.3s ease;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: start;
+        gap: 30px;
+        font-size: 27px;
+
+        img {
+          width: 40%;
+        }
+      }
+
+      li:hover {
+        transform: translateY(-20px);
+        box-shadow: 0px 0px 10px rgb(0, 0, 0);
+      }
+    }
+  }
+
+  .section_about {
+    text-align: center;
+
+    h2 {
+      font-size: 55px;
+    }
+
+    .about {
+      width: 100%;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 20px;
+
+      .capacity,
+      .additional-services,
+      .consultation {
+        width: 380px;
+        height: 380px;
+        text-align: center;
+        border-radius: 20px;
+        background: #fff;
+        box-shadow: 0px 0px 8px #d6a471;
+        transition: all 0.3s ease;
+        font-size: 25px;
+      }
+
+      .capacity:hover,
+      .additional-services:hover,
+      .consultation:hover {
+        transform: translateY(-20px);
+        box-shadow: 0px 0px 15px rgb(0, 0, 0);
+      }
+    }
+  }
+
+  .sliders {
+    .sliders_block {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: start;
+      padding: 10px 0 50px 0;
+
+      .product_block {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 40px;
+        justify-content: center;
+        align-items: center;
+
+        .clothes_block {
+          width: 500px;
+          height: 700px;
+          box-shadow: 0px 0px 4px #000;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          text-align: center;
+
+          .details {
+            display: flex;
+            align-items: center;
+            justify-content: start;
+            flex-direction: column;
+
+            .summary {
+              display: flex;
+              flex-direction: column;
+              align-items: center;
+              justify-content: start;
+              padding: 0px 10px;
+              gap: 20px;
+
+              .title {
+                font-size: 32px;
+              }
+
+              .description {
+                font-size: 14px;
+                text-align: center;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 1024px) {
+  .container {
+    width: 950px;
+  }
+
+  ul {
+    li {
+      width: 250px !important;
+      font-size: 14px;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    width: 700px;
+  }
+
+  ul {
+    flex-wrap: wrap;
+
+    li {
+      width: 250px !important;
+      height: 200px !important;
+      font-size: 24px !important;
+
+      img {
+        width: 30% !important;
+      }
+    }
+  }
+
+  .capacity,
+  .additional-services,
+  .consultation {
+    width: 300px !important;
+    font-size: 22px !important;
+  }
+
+  .h1_name {
+    font-size: 200% !important;
+  }
+
+  .image-logo {
+    height: 70% !important;
+    width: 150px !important;
+  }
+}
+
+@media (max-width: 425px) {
+  .container {
+    width: 400px;
+    position: relative;
+  }
+
+  .about {
+    flex-wrap: wrap;
+    gap: 10px;
+    align-items: center !important;
+    justify-content: center !important;
+
+    .capacity,
+    .additional-services,
+    .consultation {
+      width: 300px !important;
+      height: 200px !important;
+      font-size: 16px !important;
+    }
+  }
+
+  .home_block {
+    width: 100% !important;
+    display: flex !important;
+    flex-direction: row !important;
+    align-items: center !important;
+    justify-content: center !important;
+    gap: 0 !important;
+
+    .h1_name {
+      font-size: 180% !important;
+    }
+
+    .image-logo {
+      width: 150px !important;
+      height: 70% !important;
+    }
+  }
+
+  .sliders {
+    .sliders_block {
+      .product_block {
+        .clothes_block {
+          height: 200px !important;
+
+          a {
+            display: none;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 375px) {
+  .container {
+    width: 320px;
+  }
+
+  .h1_name {
+    font-size: 100% !important;
+  }
+
+  .image-logo {
+    width: 100px !important;
+    height: 50% !important;
+  }
+}
+
+@media (max-width: 320px) {
+  .container {
+    width: 300px;
+  }
+
+  ul {
+    li {
+      width: 130px !important;
+    }
+  }
+
+  .about {
+    .capacity,
+    .additional-services,
+    .consultation {
+      width: 250px !important;
+      height: 200px !important;
+      font-size: 14px;
+    }
+  }
+
+  .h1_name {
+    font-size: 80% !important;
+  }
+
+  .image-logo {
+    width: 80px !important;
+    height: 40% !important;
+  }
+}
