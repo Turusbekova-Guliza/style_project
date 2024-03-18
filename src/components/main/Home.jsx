@@ -147,7 +147,15 @@ function Home() {
                       target="_blank"
                     >
                       <JacketSlider />
-                    </a>
+                    </a>{" "}
+                    <button className="btn-order">
+                      <a
+                        href="https://wa.me/996508500565?text=Я%20хочу%20заказать%20одежду%20и%20получить%20информацию."
+                        target="_blank"
+                      >
+                        Заказать
+                      </a>
+                    </button>
                   </div>
                 </div>
               </div>
@@ -178,6 +186,14 @@ function Home() {
                     >
                       <TrouserSlider />
                     </a>
+                    <button className="btn-order">
+                      <a
+                        href="https://wa.me/996508500565?text=Я%20хочу%20заказать%20одежду%20и%20получить%20информацию."
+                        target="_blank"
+                      >
+                        Заказать
+                      </a>
+                    </button>
                   </div>
                 </div>
               </div>
@@ -209,6 +225,14 @@ function Home() {
                     >
                       <DressSlider />
                     </a>
+                    <button className="btn-order">
+                      <a
+                        href="https://wa.me/996508500565?text=Я%20хочу%20заказать%20одежду%20и%20получить%20информацию."
+                        target="_blank"
+                      >
+                        Заказать
+                      </a>
+                    </button>
                   </div>
                 </div>
               </div>
@@ -239,6 +263,14 @@ function Home() {
                     >
                       <SkirtSlider />
                     </a>
+                    <button className="btn-order">
+                      <a
+                        href="https://wa.me/996508500565?text=Я%20хочу%20заказать%20одежду%20и%20получить%20информацию."
+                        target="_blank"
+                      >
+                        Заказать
+                      </a>
+                    </button>
                   </div>
                 </div>
               </div>
@@ -269,6 +301,14 @@ function Home() {
                     >
                       <BlouseSlider />
                     </a>
+                    <button className="btn-order">
+                      <a
+                        href="https://wa.me/996508500565?text=Я%20хочу%20заказать%20одежду%20и%20получить%20информацию."
+                        target="_blank"
+                      >
+                        Заказать
+                      </a>
+                    </button>
                   </div>
                 </div>
               </div>
@@ -299,6 +339,14 @@ function Home() {
                     >
                       <ShirtSlider />
                     </a>
+                    <button className="btn-order">
+                      <a
+                        href="https://wa.me/996508500565?text=Я%20хочу%20заказать%20одежду%20и%20получить%20информацию."
+                        target="_blank"
+                      >
+                        Заказать
+                      </a>
+                    </button>
                   </div>
                 </div>
               </div>
@@ -329,6 +377,14 @@ function Home() {
                     >
                       <SportSlider />
                     </a>
+                    <button className="btn-order">
+                      <a
+                        href="https://wa.me/996508500565?text=Я%20хочу%20заказать%20одежду%20и%20получить%20информацию."
+                        target="_blank"
+                      >
+                        Заказать
+                      </a>
+                    </button>
                   </div>
                 </div>
               </div>
