@@ -150,7 +150,7 @@ footer {
             a:hover::before {
               width: 100%;
               left: 0;
-              border-bottom: 4px solid rgb(0, 50, 200);
+              border-bottom: 4px solid rgb(255, 255, 255);
               transition: width 0.3s ease, left 0.3s ease;
             }
           }
@@ -187,7 +187,7 @@ footer {
           a:hover::before {
             width: 100%;
             left: 0;
-            border-bottom: 4px solid rgb(0, 50, 200);
+            border-bottom: 4px solid rgb(255, 255, 255);
             transition: width 0.3s ease, left 0.3s ease;
           }
         }
@@ -222,7 +222,7 @@ footer {
         a:hover::before {
           width: 100%;
           left: 0;
-          border-bottom: 4px solid rgb(0, 50, 200);
+          border-bottom: 4px solid rgb(255, 255, 255);
           transition: width 0.3s ease, left 0.3s ease;
         }
       }

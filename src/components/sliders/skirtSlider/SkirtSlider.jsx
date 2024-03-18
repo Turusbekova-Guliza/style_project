@@ -10,7 +10,6 @@ import Sk4 from "../../../assets/product/skirts/sk4.jpg";
 
 export default function SkirtSlider() {
   var settings = {
-    dots: true,
     infinite: true,
     speed: 1000,
     slidesToShow: 1,

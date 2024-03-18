@@ -21,7 +21,6 @@ import D15 from "../../../assets/product/dresses/d15.jpg";
 
 export default function DressSlider() {
   var settings = {
-    dots: true,
     infinite: true,
     speed: 1000,
     slidesToShow: 1,

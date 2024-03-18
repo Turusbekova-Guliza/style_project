@@ -8,7 +8,6 @@ import J2 from "../../../assets/product/jackets/j2.jpg";
 
 export default function JacketSlider() {
   const settings = {
-    dots: true,
     infinite: true,
     speed: 1000,
     slidesToShow: 1,

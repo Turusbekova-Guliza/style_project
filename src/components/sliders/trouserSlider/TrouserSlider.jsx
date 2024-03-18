@@ -8,7 +8,6 @@ import T2 from "../../../assets/product/trousers/t2.jpg";
 
 export default function TrouserSlider() {
   var settings = {
-    dots: true,
     infinite: true,
     speed: 1000,
     slidesToShow: 1,

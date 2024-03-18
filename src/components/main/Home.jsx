@@ -14,9 +14,9 @@ function Home() {
 
   const handleSummaryClick = (itemName) => {
     if (selectedItem === itemName) {
-      setSelectedItem(null); // Скрыть элемент, если он уже выбран
+      setSelectedItem(null);
     } else {
-      setSelectedItem(itemName); // Показать элемент, если он еще не выбран
+      setSelectedItem(itemName);
     }
   };
 

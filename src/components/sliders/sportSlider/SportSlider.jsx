@@ -12,7 +12,6 @@ import Sp6 from "../../../assets/product/sports/sp6.jpg";
 
 export default function JacketSlider() {
   var settings = {
-    dots: true,
     infinite: true,
     speed: 1000,
     slidesToShow: 1,

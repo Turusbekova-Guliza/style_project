@@ -10,7 +10,6 @@ import Sh4 from "../../../assets/product/shirts/sh4.jpg";
 
 export default function ShirtSlider() {
   var settings = {
-    dots: true,
     infinite: true,
     speed: 1000,
     slidesToShow: 1,

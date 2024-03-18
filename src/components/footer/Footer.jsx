@@ -77,7 +77,7 @@ function Footer() {
           <hr />
           <div className="blocks_footer-3">
             <p className="except">
-              “© 2023 Компания швейного производства{" "}
+              “© 2024 Компания швейного производства{" "}
               <span style={{ color: "green" }}>ZIMODA</span> в городе Бишкек .
               Все права защищены.”
             </p>

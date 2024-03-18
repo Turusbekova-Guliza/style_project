@@ -7,16 +7,18 @@
 }
 
 .slider {
-  width: 400px;
-  height: 520px;
+  width: 400px !important;
+  height: 520px !important;
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-direction: column;
 
   .block_silder {
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
     width: 100%;
 
     .img_slide {
@@ -29,12 +31,12 @@
 @media (max-width: 435px) {
   .slider {
     width: 300px !important;
-    height: 400px !important;
+    height: 420px !important;
 
     .block_silder {
       .img_slide {
         width: 300px !important;
-        height: 400px !important;
+        height: 380px !important;
       }
     }
   }

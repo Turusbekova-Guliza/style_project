@@ -8,7 +8,6 @@ import B2 from "../../../assets/product/blouses/b2.jpg";
 
 export default function BlouseSlider() {
   var settings = {
-    dots: true,
     infinite: true,
     speed: 1000,
     slidesToShow: 1,
