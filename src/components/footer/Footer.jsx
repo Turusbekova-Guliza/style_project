@@ -7,7 +7,7 @@ import Instagram from "../../assets/svg/ins footer.svg";
 
 function Footer() {
   return (
-    <footer id="footer">
+    <footer id="contact">
       <div className="container">
         <div className="footer">
           <div className="blocks_footer-1">

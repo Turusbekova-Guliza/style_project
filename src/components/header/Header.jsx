@@ -1,12 +1,12 @@
 import React from "react";
 import "./Header.scss";
-import { Link } from "react-router-dom";
 import { useState } from "react";
+import { Link } from "react-scroll";
 import Logo from "../../assets/image/logo.jpg";
-import Whatsapp from '../../assets/svg/wa footer.svg'
-import Telegram from '../../assets/svg/t.me footer.svg'
-import Instagram from '../../assets/svg/ins footer.svg'
-import Email from '../../assets/svg/email footer.svg'
+import Whatsapp from "../../assets/svg/wa footer.svg";
+import Telegram from "../../assets/svg/t.me footer.svg";
+import Instagram from "../../assets/svg/ins footer.svg";
+import Email from "../../assets/svg/email footer.svg";
 import Call from "../../assets/svg/call footer.svg";
 
 function Header() {
@@ -24,13 +24,13 @@ function Header() {
           </div>
           <div className={menuVisible ? "block_menu open" : "block_menu"}>
             <ul className="ul_menu">
-              <Link className="link" to="#about">
+              <Link className="link" to="about" smooth={true} duration={500}>
                 О НАС
               </Link>
-              <Link className="link" to="#category">
+              <Link className="link" to="category" smooth={true} duration={500}>
                 КАТАЛОГ
               </Link>
-              <Link className="link" to="#footer">
+              <Link className="link" to="contact" smooth={true} duration={500}>
                 КОНТАКТЫ
               </Link>
             </ul>

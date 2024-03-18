@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import "./Home.scss";
 import Logo from "../../assets/image/LogoForHome.jpg";
 import JacketSlider from "../sliders/jacketSlider/JacketSlider";
@@ -10,6 +10,16 @@ import ShirtSlider from "../sliders/shirtSlider/ShirtSlider";
 import SportSlider from "../sliders/sportSlider/SportSlider";
 
 function Home() {
+  const [selectedItem, setSelectedItem] = useState(null);
+
+  const handleSummaryClick = (itemName) => {
+    if (selectedItem === itemName) {
+      setSelectedItem(null); // Скрыть элемент, если он уже выбран
+    } else {
+      setSelectedItem(itemName); // Показать элемент, если он еще не выбран
+    }
+  };
+
   return (
     <main>
       <section className="home">
@@ -112,7 +122,12 @@ function Home() {
             <div className="product_block">
               <div className="clothes_block">
                 <div className="details">
-                  <div className="summary">
+                  <div
+                    onClick={() => handleSummaryClick("jackets")}
+                    className={`summary ${
+                      selectedItem === "jackets" ? "active" : ""
+                    }`}
+                  >
                     <div className="title">Пиджаки</div>
                     <div className="description">
                       Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -122,7 +137,11 @@ function Home() {
                       Porro enim soluta corrupti.
                     </div>
                   </div>
-                  <div className="slider-comp">
+                  <div
+                    className={`slider-comp ${
+                      selectedItem === "jackets" ? "active" : ""
+                    }`}
+                  >
                     <a
                       href="https://wa.me/996508500565?text=Я%20хочу%20заказать%20одежду%20и%20получить%20информацию."
                       target="_blank"
@@ -134,7 +153,12 @@ function Home() {
               </div>
               <div className="clothes_block">
                 <div className="details">
-                  <div className="summary">
+                  <div
+                    onClick={() => handleSummaryClick("trousers")}
+                    className={`summary ${
+                      selectedItem === "trousers" ? "active" : ""
+                    }`}
+                  >
                     <div className="title">Брюки</div>
                     <div className="description">
                       Lorem, ipsum dolor sit amet consectetur adipisicing elit.
@@ -143,7 +167,11 @@ function Home() {
                       iusto aperiam, aspernatur doloremque? At, voluptatibus a.
                     </div>
                   </div>
-                  <div className="slider-comp">
+                  <div
+                    className={`slider-comp ${
+                      selectedItem === "trousers" ? "active" : ""
+                    }`}
+                  >
                     <a
                       href="https://wa.me/996508500565?text=Я%20хочу%20заказать%20одежду%20и%20получить%20информацию."
                       target="_blank"
@@ -155,7 +183,12 @@ function Home() {
               </div>
               <div className="clothes_block">
                 <div className="details">
-                  <div className="summary">
+                  <div
+                    onClick={() => handleSummaryClick("dresses")}
+                    className={`summary ${
+                      selectedItem === "dresses" ? "active" : ""
+                    }`}
+                  >
                     <div className="title">Платья</div>
                     <div className="description">
                       Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -165,7 +198,11 @@ function Home() {
                       dolorum amet.{" "}
                     </div>
                   </div>
-                  <div className="slider-comp">
+                  <div
+                    className={`slider-comp ${
+                      selectedItem === "dresses" ? "active" : ""
+                    }`}
+                  >
                     <a
                       href="https://wa.me/996508500565?text=Я%20хочу%20заказать%20одежду%20и%20получить%20информацию."
                       target="_blank"
@@ -177,7 +214,12 @@ function Home() {
               </div>
               <div className="clothes_block">
                 <div className="details">
-                  <div className="summary">
+                  <div
+                    onClick={() => handleSummaryClick("skirts")}
+                    className={`summary ${
+                      selectedItem === "skirts" ? "active" : ""
+                    }`}
+                  >
                     <div className="title">Юбки</div>
                     <div className="description">
                       Lorem, ipsum dolor sit amet consectetur adipisicing elit.
@@ -186,7 +228,11 @@ function Home() {
                       eaque voluptatum suscipit non officiis quisquam autem.
                     </div>
                   </div>
-                  <div className="slider-comp">
+                  <div
+                    className={`slider-comp ${
+                      selectedItem === "skirts" ? "active" : ""
+                    }`}
+                  >
                     <a
                       href="https://wa.me/996508500565?text=Я%20хочу%20заказать%20одежду%20и%20получить%20информацию."
                       target="_blank"
@@ -198,7 +244,12 @@ function Home() {
               </div>
               <div className="clothes_block">
                 <div className="details">
-                  <div className="summary">
+                  <div
+                    onClick={() => handleSummaryClick("blouses")}
+                    className={`summary ${
+                      selectedItem === "blouses" ? "active" : ""
+                    }`}
+                  >
                     <div className="title">Блузки</div>
                     <div className="description">
                       Lorem ipsum dolor sit, amet consectetur adipisicing elit.
@@ -207,7 +258,11 @@ function Home() {
                       dolor. Cum, impedit? Tempore quas nisi repudiandae!
                     </div>
                   </div>
-                  <div className="slider-comp">
+                  <div
+                    className={`slider-comp ${
+                      selectedItem === "blouses" ? "active" : ""
+                    }`}
+                  >
                     <a
                       href="https://wa.me/996508500565?text=Я%20хочу%20заказать%20одежду%20и%20получить%20информацию."
                       target="_blank"
@@ -219,7 +274,12 @@ function Home() {
               </div>
               <div className="clothes_block">
                 <div className="details">
-                  <div className="summary">
+                  <div
+                    onClick={() => handleSummaryClick("shirts")}
+                    className={`summary ${
+                      selectedItem === "skirts" ? "active" : ""
+                    }`}
+                  >
                     <div className="title">Рубашки</div>
                     <div className="description">
                       Lorem, ipsum dolor sit amet consectetur adipisicing elit.
@@ -228,7 +288,11 @@ function Home() {
                       magnam, praesentium perferendis culpa deserunt?
                     </div>
                   </div>
-                  <div className="slider-comp">
+                  <div
+                    className={`slider-comp ${
+                      selectedItem === "shirts" ? "active" : ""
+                    }`}
+                  >
                     <a
                       href="https://wa.me/996508500565?text=Я%20хочу%20заказать%20одежду%20и%20получить%20информацию."
                       target="_blank"
@@ -240,7 +304,12 @@ function Home() {
               </div>
               <div className="clothes_block">
                 <div className="details">
-                  <div className="summary">
+                  <div
+                    onClick={() => handleSummaryClick("sports")}
+                    className={`summary ${
+                      selectedItem === "sports" ? "active" : ""
+                    }`}
+                  >
                     <div className="title">Спортивные</div>
                     <div className="description">
                       Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -249,7 +318,11 @@ function Home() {
                       tempora assumenda, voluptatum deleniti accusamus?
                     </div>
                   </div>
-                  <div className="slider-comp">
+                  <div
+                    className={`slider-comp ${
+                      selectedItem === "sports" ? "active" : ""
+                    }`}
+                  >
                     <a
                       href="https://wa.me/996508500565?text=Я%20хочу%20заказать%20одежду%20и%20получить%20информацию."
                       target="_blank"
