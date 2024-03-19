@@ -69,7 +69,7 @@ function Footer() {
                   href="https://2gis.kg/bishkek/geo/15763234351104599"
                   target="_blank"
                 >
-                  г.Бишкек, ул.Юсуп Абдрахманова 282
+                  г.Бишкек, ул.Юсуп Абдрахманова 284
                 </a>
               </div>
             </div>

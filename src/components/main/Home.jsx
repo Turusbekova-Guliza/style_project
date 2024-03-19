@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "./Home.scss";
-import Logo from "../../assets/image/LogoForHome.jpg";
+import Logo from "../../assets/image/logo.jpg";
 import JacketSlider from "../sliders/jacketSlider/JacketSlider";
 import TrouserSlider from "../sliders/trouserSlider/TrouserSlider";
 import DressSlider from "../sliders/dressSlider/DressSlider";
@@ -8,6 +8,7 @@ import SkirtSlider from "../sliders/skirtSlider/SkirtSlider";
 import BlouseSlider from "../sliders/blouseSlider/BlouseSlider";
 import ShirtSlider from "../sliders/shirtSlider/ShirtSlider";
 import SportSlider from "../sliders/sportSlider/SportSlider";
+import SewCom from '../../assets/svg/sew-svgrepo-com.svg'
 
 function Home() {
   const [selectedItem, setSelectedItem] = useState(null);
@@ -92,7 +93,7 @@ function Home() {
             <li>
               Услуги пошива
               <img
-                src="https://90.img.avito.st/image/1/1.ngZiKra6Mu9Ug_DqUljdf7WJNOvWCTot04k2596BMA._iHUkEZ7-KUrYAcz5r8kEgbWdk3CgmujToJixm-ZwUY"
+                src={SewCom}
                 style={{ width: "60%" }}
                 alt=""
               />
