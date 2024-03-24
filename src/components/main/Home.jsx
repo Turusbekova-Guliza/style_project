@@ -116,6 +116,20 @@ function Home() {
           </ul>
         </div>
       </section>
+      <section className="section_checkout">
+        <div className="container">
+          <div className="block_checkout">
+            <button className="btn_checkout">
+              <a
+                href="https://wa.me/996508500565?text=Я%20хочу%20заказать%20одежду%20и%20получить%20информацию."
+                target="_blank"
+              >
+                Оформить заказ
+              </a>
+            </button>
+          </div>
+        </div>
+      </section>
       <section id="category" className="sliders">
         <div className="container">
           <div className="sliders_block">
@@ -130,13 +144,6 @@ function Home() {
                     }`}
                   >
                     <div className="title">Пиджаки</div>
-                    <div className="description">
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                      Adipisci impedit doloribus quisquam doloremque,
-                      reprehenderit suscipit perspiciatis error expedita dolore,
-                      autem pariatur, commodi voluptatibus illum a obcaecati.
-                      Porro enim soluta corrupti.
-                    </div>
                   </div>
                   <div
                     className={`slider-comp ${
@@ -169,12 +176,6 @@ function Home() {
                     }`}
                   >
                     <div className="title">Брюки</div>
-                    <div className="description">
-                      Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                      Iure, porro voluptatum quam eligendi veniam repudiandae
-                      alias, voluptate ea reiciendis voluptatem expedita ab iste
-                      iusto aperiam, aspernatur doloremque? At, voluptatibus a.
-                    </div>
                   </div>
                   <div
                     className={`slider-comp ${
@@ -207,13 +208,6 @@ function Home() {
                     }`}
                   >
                     <div className="title">Платья</div>
-                    <div className="description">
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                      Repellat, obcaecati, nesciunt aliquid architecto delectus
-                      fuga eos blanditiis suscipit eaque illo accusamus quam
-                      voluptatibus repudiandae, adipisci quidem maxime autem
-                      dolorum amet.{" "}
-                    </div>
                   </div>
                   <div
                     className={`slider-comp ${
@@ -246,12 +240,6 @@ function Home() {
                     }`}
                   >
                     <div className="title">Юбки</div>
-                    <div className="description">
-                      Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                      Error facere ad quos atque itaque reprehenderit laboriosam
-                      autem nam ab asperiores? Ipsa perferendis, necessitatibus
-                      eaque voluptatum suscipit non officiis quisquam autem.
-                    </div>
                   </div>
                   <div
                     className={`slider-comp ${
@@ -284,12 +272,6 @@ function Home() {
                     }`}
                   >
                     <div className="title">Блузки</div>
-                    <div className="description">
-                      Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                      Maiores harum, ut placeat voluptates ab commodi minus
-                      voluptatum et voluptas aliquam quia doloribus, animi
-                      dolor. Cum, impedit? Tempore quas nisi repudiandae!
-                    </div>
                   </div>
                   <div
                     className={`slider-comp ${
@@ -322,12 +304,6 @@ function Home() {
                     }`}
                   >
                     <div className="title">Рубашки</div>
-                    <div className="description">
-                      Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                      Similique odio sed impedit, placeat, dolorem iusto soluta
-                      quasi qui ullam pariatur, facere ea saepe. Nemo quos
-                      magnam, praesentium perferendis culpa deserunt?
-                    </div>
                   </div>
                   <div
                     className={`slider-comp ${
@@ -360,12 +336,6 @@ function Home() {
                     }`}
                   >
                     <div className="title">Спортивные</div>
-                    <div className="description">
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                      Ad possimus minima id asperiores, ipsa veritatis animi
-                      tempora? Nisi dolorem ea ab praesentium eum illo, dolores
-                      tempora assumenda, voluptatum deleniti accusamus?
-                    </div>
                   </div>
                   <div
                     className={`slider-comp ${
