@@ -131,13 +131,12 @@ main {
       .additional-services,
       .consultation {
         width: 380px;
-        height: 380px;
+        height: 400px;
         text-align: center;
         border-radius: 20px;
         background: rgba(255, 255, 255, 0.3);
         box-shadow: 0px 0px 8px #9d9d9d;
         transition: all 0.3s ease;
-        font-size: 25px;
         display: flex;
         flex-direction: column;
         gap: 20px;
@@ -145,6 +144,10 @@ main {
         h3 {
           font-size: 30px;
           font-family: "Courier New", Courier, monospace;
+        }
+
+        p {
+          font-size: 25px;
         }
       }
 
@@ -233,7 +236,7 @@ main {
 
 @media (max-width: 1050px) {
   .container {
-    width: 1010px !important;
+    width: 1000px !important;
     margin: 0 auto !important;
 
     ul {
@@ -247,7 +250,11 @@ main {
     .additional-services,
     .consultation {
       width: 300px !important;
-      font-size: 20px !important;
+      height: 350px !important;
+
+      p {
+        font-size: 20px !important;
+      }
     }
 
     .product_block {
@@ -255,13 +262,6 @@ main {
         width: 450px !important;
       }
     }
-  }
-}
-
-@media (max-width: 1030px) {
-  .container {
-    width: 1000px !important;
-    margin: 0 auto !important;
   }
 }
 
@@ -441,20 +441,6 @@ main {
     margin: 0 auto !important;
   }
 
-  .capacity:hover,
-  .additional-services:hover,
-  .consultation:hover {
-    transform: none !important;
-    box-shadow: none !important;
-  }
-
-  .capacity,
-  .additional-services,
-  .consultation {
-    transform: none !important;
-    box-shadow: none !important;
-  }
-
   li:hover {
     transform: none !important;
     box-shadow: none !important;
@@ -475,8 +461,15 @@ main {
     .additional-services,
     .consultation {
       width: 300px !important;
-      height: 200px !important;
+      height: 350px !important;
       font-size: 16px !important;
+    }
+
+    .capacity:hover,
+    .additional-services:hover,
+    .consultation:hover {
+      transform: none !important;
+      box-shadow: none !important;
     }
   }
 
@@ -533,7 +526,7 @@ main {
 
 @media (max-width: 390px) {
   .container {
-    width: 370px !important;
+    width: 360px !important;
   }
 
   .capacity:hover,
@@ -546,6 +539,8 @@ main {
   .capacity,
   .additional-services,
   .consultation {
+    width: 300px !important;
+    height: 350px !important;
     transform: none !important;
     box-shadow: none !important;
   }
@@ -561,7 +556,7 @@ main {
   }
 
   .h1_name {
-    font-size: 60% !important;
+    font-size: 50% !important;
   }
 
   .image-logo {
@@ -570,9 +565,9 @@ main {
   }
 }
 
-@media (max-width: 380px) {
+@media (max-width: 360px) {
   .container {
-    width: 340px !important;
+    width: 320px !important;
     margin: 0 auto;
   }
 
@@ -601,27 +596,19 @@ main {
   }
 
   .h1_name {
-    font-size: 60% !important;
+    font-size: 40% !important;
   }
 }
 
 @media (max-width: 320px) {
   .container {
-    width: 300px;
+    width: 290px;
   }
 
-  .capacity:hover,
-  .additional-services:hover,
-  .consultation:hover {
-    transform: none !important;
-    box-shadow: none !important;
-  }
-
-  .capacity,
-  .additional-services,
-  .consultation {
-    transform: none !important;
-    box-shadow: none !important;
+  .home_block {
+    .h1_name {
+      font-size: 20px !important;
+    }
   }
 
   li:hover {
@@ -641,17 +628,29 @@ main {
   }
 
   .about {
+    .capacity:hover,
+    .additional-services:hover,
+    .consultation:hover {
+      transform: none !important;
+      box-shadow: none !important;
+    }
+
     .capacity,
     .additional-services,
     .consultation {
       width: 250px !important;
-      height: 200px !important;
-      font-size: 14px;
-    }
-  }
+      height: 350px !important;
+      transform: none !important;
+      box-shadow: none !important;
 
-  .h1_name {
-    font-size: 60% !important;
+      h3 {
+        font-size: 22px !important;
+      }
+
+      p {
+        font-size: 19px !important;
+      }
+    }
   }
 
   .image-logo {
