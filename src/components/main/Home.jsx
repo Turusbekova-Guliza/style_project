@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import "./Home.scss";
-import Logo from "../../assets/image/logo.jpg";
 import JacketSlider from "../sliders/jacketSlider/JacketSlider";
 import TrouserSlider from "../sliders/trouserSlider/TrouserSlider";
 import DressSlider from "../sliders/dressSlider/DressSlider";
@@ -8,7 +7,7 @@ import SkirtSlider from "../sliders/skirtSlider/SkirtSlider";
 import BlouseSlider from "../sliders/blouseSlider/BlouseSlider";
 import ShirtSlider from "../sliders/shirtSlider/ShirtSlider";
 import SportSlider from "../sliders/sportSlider/SportSlider";
-import SewCom from '../../assets/svg/sew-svgrepo-com.svg'
+import SewCom from "../../assets/svg/sew-svgrepo-com.svg";
 
 function Home() {
   const [selectedItem, setSelectedItem] = useState(null);
@@ -26,8 +25,9 @@ function Home() {
       <section className="home">
         <div className="container">
           <div className="home_block">
+            <h1 className="zimoda">ZIMODA</h1>
             <h1 className="h1_name">Швейное производство</h1>
-            <img className="image-logo" src={Logo} alt="" />
+            <h6 className="h6_home">Ваша идея наше воплощение</h6>
           </div>
         </div>
       </section>
@@ -35,26 +35,25 @@ function Home() {
         <div className="container">
           <h2>О нас</h2>
           <div className="about">
+            <div className="additional-services">
+              <h3>О нашей компании</h3>
+              <p>
+                Производство одежды полного цикла, функционирует в индустрии
+                легкой промышленности с 2020 года в Кыргызстане.
+              </p>
+            </div>
             <div className="capacity">
               <h3>Мощность производства</h3>
               <p>Мы можем производить до 20 000 штук в месяц.</p>
             </div>
-            <div className="additional-services">
-              <h3>Дополнительные услуги</h3>
-              <p>
-                У нас есть услуга фулфилмента. Мы осуществляем полный цикл
-                производства: от проектирования лекал до упаковки. Также мы
-                предлагаем именные zip пакеты и этикетки.
-              </p>
-            </div>
-            <div className="consultation">
+            {/* <div className="consultation">
               <h3>Онлайн-консультации</h3>
               <p>
                 Мы готовы поддерживать процесс заказа на каждом этапе.
                 Онлайн-консультации помогут вам выбрать подходящую ткань и
                 фурнитуру для вашего проекта.
               </p>
-            </div>
+            </div> */}
           </div>
         </div>
       </section>
@@ -63,21 +62,21 @@ function Home() {
           <h2>Наши услуги</h2>
           <ul>
             <li>
-              Разработка лекала
+              Брендинг под ключ
               <img
                 src="https://cdn-icons-png.flaticon.com/512/5766/5766065.png"
                 alt=""
               />
             </li>
             <li>
-              Декатировка ткани
+              Разработка лейкало
               <img
                 src="https://cdn-icons-png.flaticon.com/512/2635/2635065.png"
                 alt=""
               />
             </li>
             <li>
-              Разбраковка ткани
+              Онлайн сопровождение
               <img
                 src="https://cdn-icons-png.flaticon.com/512/6994/6994400.png"
                 alt=""
@@ -92,11 +91,7 @@ function Home() {
             </li>
             <li>
               Услуги пошива
-              <img
-                src={SewCom}
-                style={{ width: "60%" }}
-                alt=""
-              />
+              <img src={SewCom} style={{ width: "60%" }} alt="" />
             </li>
             <li>
               Финальная инспекция качества
