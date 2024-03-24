@@ -562,6 +562,8 @@ main {
   .btn_checkout {
     transform: none !important;
     box-shadow: none !important;
+    // font-size: 28% ! important;
+    padding: 25px 45px !important;
   }
 
   .btn_checkout:hover {
@@ -766,6 +768,7 @@ main {
   .btn_checkout {
     transform: none !important;
     box-shadow: none !important;
+    padding: 20px 40px !important;
   }
 
   .btn_checkout:hover {
