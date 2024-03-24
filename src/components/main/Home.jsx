@@ -63,6 +63,9 @@ function Home() {
           <ul>
             <li>
               Брендинг под ключ
+              <p className="decor">
+                Разработаем уникальную модель под-ваш бренд
+              </p>
               <img
                 src="https://cdn-icons-png.flaticon.com/512/5766/5766065.png"
                 alt=""
@@ -70,6 +73,9 @@ function Home() {
             </li>
             <li>
               Разработка лейкало
+              <p className="decor">
+                С нами работают лучшие конструкторы, самые быстрые сроки
+              </p>
               <img
                 src="https://cdn-icons-png.flaticon.com/512/2635/2635065.png"
                 alt=""
@@ -77,34 +83,33 @@ function Home() {
             </li>
             <li>
               Онлайн сопровождение
+              <div className="decor">
+                На всех этапах производства, видео и фото отчеты
+              </div>
               <img
                 src="https://cdn-icons-png.flaticon.com/512/6994/6994400.png"
                 alt=""
               />
             </li>
             <li>
-              Подбор ткани и фурнитуры
+              Контроль качество
+              <p className="decor">
+                Особое внимание к проверке качества и соответствию стандартам
+                клиента. следящая за каэдым этапом производства
+              </p>
               <img
                 src="https://cdn-icons-png.flaticon.com/512/2100/2100020.png"
                 alt=""
               />
             </li>
             <li>
-              Услуги пошива
+              Услуги фулфильмента
               <img src={SewCom} style={{ width: "60%" }} alt="" />
             </li>
             <li>
-              Финальная инспекция качества
+              Сублимация, декатировка, вышивка, шелкография
               <img
                 src="https://cdn-icons-png.flaticon.com/512/107/107828.png"
-                alt=""
-              />
-            </li>
-            <li>
-              Упаковка
-              <img
-                src="https://cdn-icons-png.flaticon.com/512/839/839257.png"
-                style={{ width: "50%" }}
                 alt=""
               />
             </li>
