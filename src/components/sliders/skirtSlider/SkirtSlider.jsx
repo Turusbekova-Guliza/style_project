@@ -7,6 +7,9 @@ import Sk1 from "../../../assets/product/skirts/sk1.jpg";
 import Sk2 from "../../../assets/product/skirts/sk2.jpg";
 import Sk3 from "../../../assets/product/skirts/sk3.jpg";
 import Sk4 from "../../../assets/product/skirts/sk4.jpg";
+import Sk5 from "../../../assets/product/skirts/sk5.jpg";
+import Sk6 from "../../../assets/product/skirts/sk6.jpg";
+import Sk7 from "../../../assets/product/skirts/sk7.jpg";
 
 export default function SkirtSlider() {
   var settings = {
@@ -30,6 +33,15 @@ export default function SkirtSlider() {
       </div>
       <div className="block_silder">
         <img className="img_slide" src={Sk4} alt="product" />
+      </div>
+      <div className="block_silder">
+        <img className="img_slide" src={Sk5} alt="product" />
+      </div>
+      <div className="block_silder">
+        <img className="img_slide" src={Sk6} alt="product" />
+      </div>
+      <div className="block_silder">
+        <img className="img_slide" src={Sk7} alt="product" />
       </div>
     </Slider>
   );
