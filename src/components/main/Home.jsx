@@ -375,6 +375,17 @@ function Home() {
           </div>
         </div>
       </section>
+      <section className="mores">
+        <div className="container">
+          <div className="more_desc">
+            <p>
+              Предоставляем индивидуальные условия сотрудничества для каждого
+              клиента. Фиксированные цены и гибкие условия по оплате для дилеров
+              и оптовых компаний.{" "}
+            </p>
+          </div>
+        </div>
+      </section>
     </main>
   );
 }
