@@ -109,7 +109,11 @@ main {
         align-items: center;
         gap: 20px;
         font-size: 25px;
-        font-family: "Courier New", Courier, monospace;
+
+        .local {
+          color: #464646 !important;
+          text-shadow: 0px 0px 1px #464646;
+        }
 
         .decor {
           font-size: 16px;
